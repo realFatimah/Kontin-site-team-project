@@ -1,0 +1,215 @@
+/* ***** navbar ***** */
+
+.navBar {
+  /* @apply flex items-center justify-between py-4; */
+}
+
+.logo {
+  /* @apply ml-4; */
+}
+
+.navItems {
+  @apply flex items-center space-x-4;
+
+  margin-bottom: 2rem; 
+}
+.first-set {
+margin-right: 500px; /* Adjust the value as needed */
+}
+
+.second-set img {
+margin-left: 4px; /* Adjust the value as needed */
+}
+  
+  /* ************* Hero banner ***************** */
+  #text {
+    position: absolute;
+    top: 100px;
+    left: 200px;
+    color: rgb(255, 255, 255);
+  }
+  .image {
+    /* object-fit: cover; */
+    width: 320px;
+    height: 200px;
+    padding: 0px; /* Adjust this value to reduce the white space */
+    
+  }
+  /* Hide the dropdowns by default */
+  .navItems ul li ul {
+  display: none;
+  }
+  
+  /* Display the dropdowns on hover */
+  .navItems ul li:hover > ul {
+  display: block;
+  }
+  
+  /* Dropdown styles */
+  .navItems ul li ul {
+  position: absolute;
+  background-color:  #f3f3f3;/* Background color */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 0.5rem;
+  margin-top: 0.5rem;
+  list-style: none;
+  z-index: 4000;
+  }
+  
+  .navItems ul li ul li {
+  padding: 0.5rem 1rem;
+  white-space: nowrap;
+  }
+  
+  .navItems ul li ul li a {
+  color: #4a4a4a;
+  text-decoration: none;
+  display: block;
+  }
+  
+  .navItems ul li ul li a:hover {
+  background-color:  #FBA919;
+  }
+  
+  /* ***** hero banner ***** */
+  #mainHeading {
+      color: #FDBB1C;
+      text-align: center;
+      font-weight: 500;
+      font-size: 300px;
+      font-family:Arial, Helvetica, sans-serif;
+      
+  }
+  #text {
+      position: absolute;
+      top: 200px;
+      left: 200px;
+      color: rgb(255, 255, 255);
+  }
+  
+  
+  .image {
+      /* object-fit: cover; */
+      width: 320px;
+      height: 180px;
+      padding: /* Adjust this value to reduce the white space */
+  }
+
+
+
+  #img {
+   padding-top: 128px;
+   padding-bottom:128px ;
+  }
+
+
+  .navItems ul li ul {
+    display: none;
+  }
+  
+  /* Display the dropdowns on hover */
+  .navItems ul li:hover > ul {
+    display: block;
+  }
+  
+  /* Dropdown styles */
+  .navItems ul li ul {
+    position: absolute;
+    background-color:   #FBA919;/* Background color */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 0.5rem;
+    margin-top: 0.5rem;
+    list-style: none;
+    z-index: 4000;
+  }
+  
+  .navItems ul li ul li {
+    padding: 0.5rem 1rem;
+    white-space: nowrap;
+  }
+  
+  .navItems ul li ul li a {
+    color: #4a4a4a;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .navItems ul li ul li a:hover {
+    background-color: #f3f3f3;
+  }
+
+  .image-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px; /* Space between images */
+    padding: 0 20px; /* Space on the left and right */
+  }
+  
+  .project-img {
+    height: 24rem; /* 96px */
+    width: 18rem;  /* 72px */
+  }
+  
+
+  /* images */
+
+  .image-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px; /* Space between images */
+     padding: 160px; 
+    background-color: #fff; /* Optional: set background color to white */
+  }
+  
+  .project-img {  
+    flex: 1 1 calc(33.33% - 40px); /* Three images per line with gap consideration
+    /* box-sizing: border-box;   Ensure padding and border are included in the element's total width and height */
+    
+  }
+
+  
+  
+   /* ********************** footer ******************** */
+#company{ color: #ffffff;
+ 
+}
+
+/* ***** footer radio button ***** */
+
+.container {
+  display: flex;
+  align-items: center;
+}
+
+.radio-container {
+  display: flex;
+  align-items: center;
+}
+
+.radio-button {
+  margin-right: 16px; /* Adjust the spacing between the radio button and the label */
+}
+
+
+/* ***** footer social icons ***** */
+.icon-container {
+  display: flex;
+  align-items: center;
+}
+
+.icon {
+  width: 16px; 
+  height: 16px; 
+  margin-right: 8px; 
+}
+
+.icon:last-child {
+  margin-right: 24px; 
+}
+
+a {
+  display: inline-flex;
+  align-items: center;
+}

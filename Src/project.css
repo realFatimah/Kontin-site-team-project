@@ -1,0 +1,71 @@
+.navItems {
+    @apply flex items-center space-x-4;
+
+    margin-bottom: 2rem; 
+}
+
+#text {
+    position: absolute;
+    top: 100px;
+    left: 200px;
+    color: rgb(255, 255, 255);
+}
+
+#main image {
+    position: absolute;
+    margin-left: 100px;
+    margin-top: 50px;
+}
+
+
+
+
+
+/* ***** footer ***** */
+#company{ color: #ffffff;
+ 
+}
+
+/* ***** footer radio button ***** */
+
+.container {
+  display: flex;
+  align-items: center;
+}
+
+.radio-container {
+  display: flex;
+  align-items: center;
+}
+
+.radio-button {
+  margin-right: 16px; /* Adjust the spacing between the radio button and the label */
+}
+
+
+/* ***** footer social icons ***** */
+.icon-container {
+  display: flex;
+  align-items: center;
+}
+
+.icon {
+  width: 16px; 
+  height: 16px; 
+  margin-right: 8px; 
+}
+
+.icon:last-child {
+  margin-right: 24px; 
+}
+
+a {
+  display: inline-flex;
+  align-items: center;
+}
+
+
+
+
+
+

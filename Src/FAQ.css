@@ -1,0 +1,211 @@
+/* ***** navbar ***** */
+
+.navBar {
+    /* @apply flex items-center justify-between py-4; */
+}
+
+.logo {
+    /* @apply ml-4; */
+}
+
+.navItems {
+    @apply flex items-center space-x-4;
+
+    margin-bottom: 2rem; 
+}
+.first-set {
+  margin-right: 500px; /* Adjust the value as needed */
+}
+
+.second-set img {
+  margin-left: 4px; /* Adjust the value as needed */
+}
+/* Hide the dropdowns by default */
+ 
+/* ************* Hero banner ***************** */
+#text {
+    position: absolute;
+    top: 100px;
+    left: 200px;
+    color: rgb(255, 255, 255);
+}
+.image {
+    /* object-fit: cover; */
+    width: 320px;
+    height: 200px;
+    padding: 0px; /* Adjust this value to reduce the white space */
+    
+}
+/* Hide the dropdowns by default */
+.navItems ul li ul {
+  display: none;
+}
+
+/* Display the dropdowns on hover */
+.navItems ul li:hover > ul {
+  display: block;
+}
+
+/* Dropdown styles */
+.navItems ul li ul {
+  position: absolute;
+  background-color:   #FBA919;/* Background color */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 0.5rem;
+  margin-top: 0.5rem;
+  list-style: none;
+  z-index: 4000;
+}
+
+.navItems ul li ul li {
+  padding: 0.5rem 1rem;
+  white-space: nowrap;
+}
+
+.navItems ul li ul li a {
+  color: #4a4a4a;
+  text-decoration: none;
+  display: block;
+}
+
+.navItems ul li ul li a:hover {
+  background-color: #f3f3f3;
+}
+
+/* ************* Form ***************** */
+
+.hyphen {
+    display: inline-block;
+    height: 1.5px;
+    width: 10px;
+    background-color: #FBA919;
+    margin-right: 5px; /* Add some space between the hyphen and text */
+}
+
+  /* ******************  orang question cards ********************** */
+.card-container {
+  display: flex;
+  gap: 20px; /* Optional: Adjust the gap between the cards */
+}
+
+.cookieCard, .cookieCard2 {
+  border: solid 1px #c6c4be;
+  width: 450px;
+  height: 180px;
+  /* background-color: #F3F4F6; */
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 20px;
+  padding: 20px;
+  position: relative; /* Changed to relative to position .oline inside */
+  overflow: hidden;
+}
+.cookieCard{
+  margin-left: 300px;
+
+}
+
+.oline {
+  height: 180px; /* Changed to fill the height of the card */
+  width: 2px;
+  background-color: #FBA919;
+  position: absolute;
+  top: 0;
+  right: 0; /* Changed to right to align to the very right */
+}
+
+.cookieHeading {
+  font-size: 1.5em;
+  font-weight: 600;
+  color: rgb(48, 44, 44);
+  z-index: 2;
+}
+
+.cookieDescription {
+  font-size: 0.9em;
+  color: rgb(10, 10, 10);
+  z-index: 2;
+}
+
+.cookieDescription a {
+  color: rgb(39, 35, 35);
+}
+
+/* ******************  question cards ********************** */
+
+.cookieCard3, .cookieCard4, .cookieCard5, .cookieCard6 {
+  width: 450px;
+  height: 80px;
+  background-color: #F3F4F6;
+  display: flex;
+  /* flex-direction: column; */
+  /* align-items: flex-start; */
+  /* justify-content: center; */
+  gap: 20px;
+  padding: 20px;
+  position: absolute;
+  overflow: hidden;
+  margin-top: 20px;
+}
+.cookieCard3 {
+  /* margin-top: 300px; */
+  margin-left: 300px; ;
+}
+.cookieCard4 {
+  margin-left: 780px;
+}
+
+.cookieCard5 {
+  margin-top: 120px;
+  margin-left: 300px; ;
+}
+
+.cookieCard6 {
+  margin-left: 780px;
+  margin-top: 120px;
+}
+
+ /* ********************** footer ******************** */
+#company{ color: #ffffff;
+ 
+}
+
+/* ***** footer radio button ***** */
+
+.container {
+  display: flex;
+  align-items: center;
+}
+
+.radio-container {
+  display: flex;
+  align-items: center;
+}
+
+.radio-button {
+  margin-right: 16px; /* Adjust the spacing between the radio button and the label */
+}
+
+
+/* ***** footer social icons ***** */
+.icon-container {
+  display: flex;
+  align-items: center;
+}
+
+.icon {
+  width: 16px; 
+  height: 16px; 
+  margin-right: 8px; 
+}
+
+.icon:last-child {
+  margin-right: 24px; 
+}
+
+a {
+  display: inline-flex;
+  align-items: center;
+}
